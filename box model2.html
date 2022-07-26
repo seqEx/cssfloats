@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+cssfloats{
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 100%;
+  float: left;
+}
+
+div {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+.left {
+  float: left;
+  background: pink;
+}
+
+.right {
+  float: right;
+  background: cyan;
+    }
+  
+.text {
+ 
+  font-family: Courier;
+  margin-top:50px;
+  text-align:center
+}
+</style>
+</head>
+<body>
+
+<cssfloats>
+  <div class="left"><div class="text"><p>box1</p></div></div>
+   <div class="left"><div class="text"><p>box2</p></div></div>
+    <div class="right"><div class="text"><p>box3</p></div></div>
+  
+</cssfloats>
+</body>
+</html>
